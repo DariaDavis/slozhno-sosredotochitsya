@@ -17,5 +17,10 @@
   --title-shadow: #FF0070;
   --main-font: 'IBM Plex mono', sans-serif;
   --bg-image: url('../images/cover-image-dark.png');
-  --hover-color-rgb: 255, 0, 112;
+  --btn-color: #ff0070;
+  --btn-color-rgb: 255, 0, 112;
+}
+
+.theme_dark .header__decorative-element {
+  display: inline-flex;
 }
