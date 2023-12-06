@@ -282,7 +282,7 @@
 
   .section-even {
     row-gap: 0;
-    margin-inline-start: 5px;
+    margin-inline-start: 7px;
   }
 
   .section-even .section__content {
