@@ -282,6 +282,7 @@
 
   .section-even {
     row-gap: 0;
+    margin-inline-start: 5px;
   }
 
   .section-even .section__content {
@@ -290,7 +291,6 @@
 
   .section-even .section__title {
     grid-row: span 2;
-    margin-inline-start: 5px;
   }
 
   .section-odd .section__content {
@@ -364,7 +364,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
 
-  .section-even .section__title {
+  .section-even {
     margin-inline-start: 0;
   }
 }
