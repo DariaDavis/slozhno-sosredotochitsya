@@ -6,7 +6,7 @@
   color: var(--text-color);
   font-family: var(--main-font);
   font-size: 18px;
-  padding: 10px;
+  padding: 0 10px;
   background-image: var(--bg-image);
   background-position: center;
   background-size: cover;
@@ -20,6 +20,7 @@
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   row-gap: 20px;
+  padding: 10px 0;
 }
 
 .decorated-zone::after {
@@ -29,7 +30,7 @@
   border-right: 1px solid var(--accent-color);
   border-top: 1px solid var(--accent-color);
   position: absolute;
-  top: 0;
+  top: 20px;
   right: 0;
 }
 
@@ -40,7 +41,7 @@
   border-left: 1px solid var(--accent-color);
   border-bottom: 1px solid var(--accent-color);
   position: absolute;
-  bottom: 0;
+  bottom: 20px;
   left: 0;
 }
 
@@ -51,6 +52,7 @@
   top: 0;
   right: 0;
   color: var(--accent-color);
+  margin-top: 10px;
 }
 
 .header__decorative-element::after {
@@ -234,12 +236,18 @@
 
 @media (width>=768px) {
   .page {
-    padding: 20px;
+    padding: 0 20px;
   }
 
   .header {
     grid-template-columns: repeat(2, 1fr);
     row-gap: 70px;
+    padding: 20px 0;
+  }
+
+  .header__decorative-element {
+    
+    margin-top: 20px;
   }
 
   .header__title {
@@ -260,7 +268,7 @@
 
   .main {
     gap: 55px;
-    padding: 80px 0;
+    padding: 60px 0;
   }
 
   .section {
