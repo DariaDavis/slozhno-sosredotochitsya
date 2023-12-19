@@ -7,7 +7,8 @@
   :root {
     --bg-color: #FFF1F7;
     --text-color: #353430;
-    --accent-color: #FF8DCB;
+    --decor-color: #FF8DCB;
+    --accent-color: #353430;
     --accent-text-color: #353430;
     --title-color: #FFC2E6;
     --title-shadow: #FF0070;
@@ -15,6 +16,7 @@
     --btn-color: #353430;
     --btn-color-rgb: 50, 49, 45;
   }
+
   .theme_auto .header__decorative-element {
     display: none;
   }
@@ -27,7 +29,8 @@
   */
   --bg-color: #FFF1F7;
   --text-color: #353430;
-  --accent-color: #FF8DCB;
+  --decor-color: #FF8DCB;
+  --accent-color: #353430;
   --accent-text-color: #353430;
   --title-color: #FFC2E6;
   --title-shadow: #FF0070;

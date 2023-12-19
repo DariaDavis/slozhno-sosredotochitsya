@@ -67,7 +67,7 @@
 
 .header__title {
   color: var(--title-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--decor-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   grid-column: span 2;
   align-self: end;
@@ -112,6 +112,7 @@
 }
 
 .header__theme-menu-button:focus-visible {
+  outline: none;
   border-bottom: 1px solid var(--accent-color);
 }
 
@@ -124,7 +125,7 @@
 
 .section__paragraph_link {
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 2px 2px 0 var(--decor-color);
 }
 
 .section__paragraph_link:hover {
@@ -141,7 +142,7 @@
 }
 
 .title-decor {
-  background-color: var(--accent-color);
+  background-color: var(--decor-color);
   color: var(--accent-text-color);
   font-style: normal;
   font-weight: 700;
@@ -238,7 +239,7 @@
 
 .footer__title {
   color: var(--title-color);
-  text-shadow: 4px 4px 0 var(--accent-color);
+  text-shadow: 4px 4px 0 var(--decor-color);
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
 }
 
