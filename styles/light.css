@@ -3,6 +3,22 @@
   Здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg-color: #FFF1F7;
+    --text-color: #353430;
+    --accent-color: #FF8DCB;
+    --accent-text-color: #353430;
+    --title-color: #FFC2E6;
+    --title-shadow: #FF0070;
+    --bg-image: url('../images/cover-image-light.png');
+    --btn-color: #353430;
+    --btn-color-rgb: 50, 49, 45;
+  }
+  .theme_auto .header__decorative-element {
+    display: none;
+  }
+}
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
